@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikas Cloud Kitchen</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="Vikas Cloud Kitchen" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About </a>
+          <a href="service.html" class="nav-link"> Services </a>
+          <a href="contact.html" class="nav-link"> Contact </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+
+    <!-- main content -->
+    <main class="page">
+      <!-- hero section -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Vikas Cloud Kitchen</h1>
+            <h4>Your one-stop kitchen for fresh, tasty, and delivered food!</h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of hero section -->
+
+      <!-- history section -->
+      <section class="history-container">
+        <h2>Our History</h2>
+        <p>
+          Vikas Cloud Kitchen was established with the goal of bringing restaurant-quality food to your doorstep. Over the years, we've become a trusted name in the food delivery industry, offering an extensive menu crafted by culinary experts. Whether it's a casual meal or a special occasion, we provide fresh, flavorful, and healthy meals made with love and precision.
+        </p>
+      </section>
+      <!-- end of history section -->
+
+      <!-- services section -->
+      <section class="services-container">
+        <h2>Our Services</h2>
+        <div class="service">
+          <h3>Cloud Kitchen Delivery</h3>
+          <p>
+            We specialize in delivering high-quality meals directly to your home or office. Our cloud kitchen model allows us to maintain lower overheads while delivering the best food at competitive prices.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Catering Services</h3>
+          <p>
+            From intimate gatherings to large events, Vikas Cloud Kitchen offers catering services for every occasion. Our menu can be customized based on your preferences and dietary requirements.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Meal Plans</h3>
+          <p>
+            Looking for convenience? We offer flexible meal plans, including daily, weekly, and monthly options, to suit your lifestyle. Fresh meals delivered right to your door, whenever you need them.
+          </p>
+        </div>
+      </section>
+      <!-- end of services section -->
+
+      <!-- contact section -->
+      <section class="contact-container">
+        <h2>Contact Us</h2>
+        <p>
+          We’d love to hear from you! Whether you have a question, feedback, or would like to inquire about our services, feel free to reach out.
+        </p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:contact@vikascloudkitchen.com">contact@vikascloudkitchen.com</a>
+        </p>
+        <p>
+          <strong>Phone:</strong> +91  6382964801
+        </p>
+        <p>
+          <strong>Address:</strong> 8/62,South Street,Coimbatore-641062
+        </p>
+      </section>
+      <!-- end of contact section -->
+    </main>
+    <!-- end of main content -->
+
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Vikas Cloud Kitchen</span> Built with love
+        by <a href="https://www.johnsmilga.com/">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script>
+      // Dynamically update the current year in the footer
+      document.getElementById('date').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
